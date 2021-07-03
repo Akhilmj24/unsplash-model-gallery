@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.image-continer {
+  width: 100vw;
+  background-color:rgb(19, 7, 31);
+  height: auto;
+ padding: 40px;
+  column-count: 5;
+}
+@media (max-width:736px) {
+    .image-continer{
+        columns: 3;
+    }
+}
+.col {
+  height: auto;
+  break-inside: avoid-column;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.col img {
+  width: 100%;
+}
